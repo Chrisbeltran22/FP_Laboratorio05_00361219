@@ -23,7 +23,7 @@ int main(){
 		cin>>n;	cout<<"Ha seleccionado "<<n<<endl;
 		
 		switch(n){
-				case 1:
+				case 1: //Proceso Sumatoria
 					cout<<endl<<"Ingrese dos digitos a operar enm sumatoria"<<endl;
 					cin>>dig1;
 					cin>>dig2;
@@ -31,7 +31,7 @@ int main(){
 					cout<<endl<<"La respuesta es "<<suma<<endl;
 				break;
 				
-				case 2:
+				case 2: //Proceso Resta
 					cout<<endl<<"Ingrese dos digitos a operar en resta"<<endl;
 					cin>>dig1;
 					cin>>dig2;
@@ -39,7 +39,7 @@ int main(){
 					cout<<endl<<"La respuesta es "<<resta<<endl;
 				break;
 				
-				case 3:
+				case 3: //Proceso Multiplicación
 					cout<<endl<<"Ingrese dos digitos a operar en multiplicacion"<<endl;
 					cin>>dig1;
 					cin>>dig2;
@@ -47,7 +47,7 @@ int main(){
 					cout<<endl<<"La respuesta es "<<mult<<endl;
 				break;		
 					
-				case 4:
+				case 4: //Proceso división
 					cout<<endl<<"Ingrese dos digitos a operar en division"<<endl;
 					cin>>dig1;
 					cin>>dig2;
@@ -55,7 +55,7 @@ int main(){
 					cout<<endl<<"La respuesta es "<<div<<endl;
 				break;
 					
-				case 5:
+				case 5: //Serie Fibonacci
 					cout<<endl<<"Ingrese el digito a operar en proceso Fibonacci"<<endl;
 					cin>>dig1;
 					cout<<endl<<"0\n1\n";
@@ -68,7 +68,7 @@ int main(){
 					cout<<endl;	
 					break;	
 					
-				case 6:
+				case 6: //Factorial de un número
 					cout<<endl<<"Ingrese el digito a operar factorialmente"<<endl;
 					cin>>dig1;
 					if (dig1 < 0) y = 0;
@@ -86,7 +86,7 @@ int main(){
 	}				
 	
 	
-	while(n!=7);				
+	while(n!=7); //Proceso de cierre o finalización de programa				
 	cout<<"Gracias por usar nuestra Calculadora Pro Master 2000\nHave a nice day";				
 }
 	
